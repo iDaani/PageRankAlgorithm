@@ -33,7 +33,7 @@ class Driver {
 	String inputFileCSR = null;
 	String inputFileCSC = null;
 	for( int i=4; i < args.length; ++i ) {
-	    String ext = args[i].substring( args[i].lastIndexOf( "." ) + 1 );
+	    String ext = args[i].substring( args[i].lastIndexOf("") + 1 );
 	    if( ext.equals( "csc" ) )
 		inputFileCSC = args[i];
 	    else if( ext.equals( "csr" ) )
